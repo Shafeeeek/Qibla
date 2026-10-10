@@ -1,0 +1,411 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean build -project Qibla.xcodeproj -scheme Qibla -destination "platform=iOS Simulator,name=iPhone 17,OS=latest"
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+** CLEAN SUCCEEDED **
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'Qibla' in project 'Qibla' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 71ef9c89eadc9b41371af91db32a9ee6
+Build description path: /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/XCBuildData/71ef9c89eadc9b41371af91db32a9ee6.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
+    cd /Users/shafeekmacbookpro/Desktop/Qibla/Qibla.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
+
+CreateBuildDirectory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products
+    cd /Users/shafeekmacbookpro/Desktop/Qibla/Qibla.xcodeproj
+    builtin-create-build-directory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products
+
+CreateBuildDirectory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex
+    cd /Users/shafeekmacbookpro/Desktop/Qibla/Qibla.xcodeproj
+    builtin-create-build-directory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/shafeekmacbookpro/Desktop/Qibla/Qibla.xcodeproj
+    builtin-create-build-directory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/shafeekmacbookpro/Desktop/Qibla/Qibla.xcodeproj
+    builtin-create-build-directory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/shafeekmacbookpro/Desktop/Qibla/Qibla.xcodeproj
+    builtin-create-build-directory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla-86470dd56b28eba8dcb3946040c71073-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/shafeekmacbookpro/Desktop/Qibla/Qibla.xcodeproj
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla-86470dd56b28eba8dcb3946040c71073-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator
+    cd /Users/shafeekmacbookpro/Desktop/Qibla/Qibla.xcodeproj
+    builtin-create-build-directory /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.DependencyStaticMetadataFileList (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.DependencyMetadataFileList (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-project-headers.hmap (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-project-headers.hmap
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-all-target-headers.hmap (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-generated-files.hmap (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-generated-files.hmap
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-all-non-framework-target-headers.hmap (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-own-target-headers.hmap (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.hmap (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.hmap
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/empty-Qibla.plist (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/empty-Qibla.plist
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-DebugDylibPath-normal-arm64.txt (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-DebugDylibInstallName-normal-arm64.txt (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla_const_extract_protocols.json (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.SwiftFileList (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.SwiftFileList
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.SwiftConstValuesFileList (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.LinkFileList (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.LinkFileList
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-OutputFileMap.json (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-OutputFileMap.json
+
+MkDir /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /bin/mkdir -p /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app
+
+WriteAuxiliaryFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/Entitlements-Simulated.plist (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    write-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/Entitlements-Simulated.plist
+
+ProcessProductPackaging "" /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "85AXSC2594.com.shafeek.qibla";
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent
+
+ProcessProductPackagingDER /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent.der (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /usr/bin/derq query -f xml -i /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent -o /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent.der --raw
+
+MkDir /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/thinned (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /bin/mkdir -p /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/thinned
+
+MkDir /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/unthinned (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /bin/mkdir -p /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/unthinned
+
+Ld /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/__preview.dylib normal (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -install_name @rpath/Qibla.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/__preview.dylib
+
+GenerateAssetSymbols /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets --compile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_dependencies --output-partial-info-plist /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 17.0 --platform iphonesimulator --bundle-identifier com.shafeek.qibla --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.document.warnings */
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][tinted][][]: warning: AppIcon.appiconset/icon-ios-76x76@2x.png is 152x152 but should be 1024x1024.
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][dark][][]: warning: AppIcon.appiconset/icon-ios-64x64@3x.png is 192x192 but should be 1024x1024.
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][tinted][][]: warning: AppIcon.appiconset/icon-ios-76x76@2x.png is 152x152 but should be 1024x1024.
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][dark][][]: warning: AppIcon.appiconset/icon-ios-64x64@3x.png is 192x192 but should be 1024x1024.
+/* com.apple.actool.compilation-results */
+/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CompileAssetCatalogVariant thinned /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets --compile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --filter-for-thinning-device-configuration iPhone18,3 --filter-for-device-os-version 26.5 --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 17.0 --platform iphonesimulator
+/* com.apple.actool.notices */
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets: warning: Accent color ‘AccentColor’ is not present in any asset catalogs.
+/* com.apple.actool.document.warnings */
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][tinted][][]: warning: AppIcon.appiconset/icon-ios-76x76@2x.png is 152x152 but should be 1024x1024.
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][dark][][]: warning: AppIcon.appiconset/icon-ios-64x64@3x.png is 192x192 but should be 1024x1024.
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][tinted][][]: warning: AppIcon.appiconset/icon-ios-76x76@2x.png is 152x152 but should be 1024x1024.
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][dark][][]: warning: AppIcon.appiconset/icon-ios-64x64@3x.png is 192x192 but should be 1024x1024.
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][tinted][][]: warning: AppIcon.appiconset/icon-ios-76x76@2x.png is 152x152 but should be 1024x1024.
+/Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][dark][][]: warning: AppIcon.appiconset/icon-ios-64x64@3x.png is 192x192 but should be 1024x1024.
+/* com.apple.actool.compilation-results */
+/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_generated_info.plist_thinned
+/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/thinned/Assets.car
+
+
+SwiftDriver Qibla normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Qibla -Onone @/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Qibla-erxpwluikudhzrdvgdolelweognd/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla_const_extract_protocols.json -Xcc -iquote -Xcc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-generated-files.hmap -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-own-target-headers.hmap -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-all-target-headers.hmap -Xcc -iquote -Xcc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-project-headers.hmap -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources-normal/arm64 -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/arm64 -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-Swift.h -working-directory /Users/shafeekmacbookpro/Desktop/Qibla -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ NotificationService.swift,\ PrayerCalculator.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Services/NotificationService.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Services/PrayerCalculator.swift (in target 'Qibla' from project 'Qibla')
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Services/NotificationService.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Services/PrayerCalculator.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 Compiling\ PrayerTime.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Models/PrayerTime.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Models/PrayerTime.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ Qibla (in target 'Qibla' from project 'Qibla')
+EmitSwiftModule normal arm64 (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 Compiling\ QiblaView.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Views/QiblaView.swift (in target 'Qibla' from project 'Qibla')
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Views/QiblaView.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 Compiling\ ContentView.swift,\ LocationManager.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/App/ContentView.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Services/LocationManager.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/App/ContentView.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Services/LocationManager.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 Compiling\ AppPalette.swift,\ AppState.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Design/AppPalette.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Models/AppState.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Design/AppPalette.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Models/AppState.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 Compiling\ PrayersView.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Views/PrayersView.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Views/PrayersView.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 Compiling\ SettingsView.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Views/SettingsView.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Views/SettingsView.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 Compiling\ QiblaCalculator.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Services/QiblaCalculator.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Services/QiblaCalculator.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftCompile normal arm64 Compiling\ QiblaApp.swift /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/App/QiblaApp.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/App/QiblaApp.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling QiblaCalculator.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftCompile normal arm64 /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling PrayerTime.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'Qibla' from project 'Qibla')
+
+LinkAssetCatalog /Users/shafeekmacbookpro/Desktop/Qibla/QiblaApp/Resources/Assets.xcassets (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-linkAssetCatalog --thinned /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/thinned --thinned-dependencies /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_generated_info.plist_unthinned --output /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app --plist-output /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Assets.car (in target 'Qibla' from project 'Qibla')
+note: Emplaced /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/AppIcon60x60@2x.png (in target 'Qibla' from project 'Qibla')
+note: Emplaced /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/AppIcon76x76@2x~ipad.png (in target 'Qibla' from project 'Qibla')
+
+ProcessInfoPlistFile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Info.plist /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/empty-Qibla.plist (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-infoPlistUtility /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/empty-Qibla.plist -producttype com.apple.product-type.application -genpkginfo /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/assetcatalog_generated_info.plist -o /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Info.plist
+
+SwiftDriverJobDiscovery normal arm64 Compiling NotificationService.swift, PrayerCalculator.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for Qibla (in target 'Qibla' from project 'Qibla')
+
+SwiftDriver\ Compilation\ Requirements Qibla normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Qibla -Onone @/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Qibla-erxpwluikudhzrdvgdolelweognd/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla_const_extract_protocols.json -Xcc -iquote -Xcc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-generated-files.hmap -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-own-target-headers.hmap -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-all-target-headers.hmap -Xcc -iquote -Xcc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-project-headers.hmap -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources-normal/arm64 -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/arm64 -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-Swift.h -working-directory /Users/shafeekmacbookpro/Desktop/Qibla -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/Qibla-Swift.h /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-Swift.h (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-swiftHeaderTool -arch arm64 /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-Swift.h -o /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/Qibla-Swift.h
+
+Copy /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftmodule (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftmodule /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.abi.json (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.abi.json /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftdoc (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftdoc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftsourceinfo (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftsourceinfo /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal arm64 Compiling QiblaApp.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppPalette.swift, AppState.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PrayersView.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftDriverJobDiscovery normal arm64 Compiling SettingsView.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ContentView.swift, LocationManager.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftDriverJobDiscovery normal arm64 Compiling QiblaView.swift (in target 'Qibla' from project 'Qibla')
+
+SwiftDriver\ Compilation Qibla normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Qibla -Onone @/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Qibla-erxpwluikudhzrdvgdolelweognd/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla_const_extract_protocols.json -Xcc -iquote -Xcc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-generated-files.hmap -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-own-target-headers.hmap -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-all-target-headers.hmap -Xcc -iquote -Xcc /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-project-headers.hmap -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources-normal/arm64 -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources/arm64 -Xcc -I/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-Swift.h -working-directory /Users/shafeekmacbookpro/Desktop/Qibla -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla.debug.dylib normal (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -filelist /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.LinkFileList -install_name @rpath/Qibla.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.swiftmodule @/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -framework CoreLocation -Xlinker -no_adhoc_codesign -o /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-ExecutorLinkFileList-normal-arm64.txt (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    construct-stub-executor-link-file-list /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'Qibla' from project 'Qibla')
+
+Ld /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla normal (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla-ExecutorLinkFileList-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.app-Simulated.xcent.der /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla.debug.dylib -Xlinker -no_adhoc_codesign -o /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla
+
+CopySwiftLibs /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla.debug.dylib --scan-folder /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Frameworks --scan-folder /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/PlugIns --scan-folder /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/SystemExtensions --scan-folder /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Extensions --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/System/Library/Frameworks/CoreLocation.framework --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+ExtractAppIntentsMetadata (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name Qibla --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.shafeek.qibla --output /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla --dependency-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla_dependency_info.dat --stringsdata-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.SwiftFileList --metadata-file-list /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.DependencyMetadataFileList --static-metadata-file-list /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.DependencyStaticMetadataFileList --swift-const-vals-list /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Objects-normal/arm64/Qibla.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-09-16 09:36:42.316 appintentsmetadataprocessor[3672:85390] Starting appintentsmetadataprocessor export
+2026-09-16 09:36:42.319 appintentsmetadataprocessor[3672:85390] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+AppIntentsSSUTraining (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Info.plist --temp-dir-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/ssu --bundle-id com.shafeek.qibla --product-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app --extracted-metadata-path /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Metadata.appintents --metadata-file-list /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Intermediates.noindex/Qibla.build/Debug-iphonesimulator/Qibla.build/Qibla.DependencyMetadataFileList --source-file /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Info.plist --archive-ssu-assets
+2026-09-16 09:36:42.331 appintentsnltrainingprocessor[3673:85391] Parsing options for appintentsnltrainingprocessor
+2026-09-16 09:36:42.331 appintentsnltrainingprocessor[3673:85391] Starting AppIntents SSU YAML Generation
+2026-09-16 09:36:42.334 appintentsnltrainingprocessor[3673:85391] No AppShortcuts found - Skipping.
+
+CodeSign /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla.debug.dylib (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/Qibla.debug.dylib
+
+CodeSign /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/__preview.dylib (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app/__preview.dylib
+
+CodeSign /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app
+
+RegisterExecutionPolicyException /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-RegisterExecutionPolicyException /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app
+
+Validate /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    builtin-validationUtility /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app (in target 'Qibla' from project 'Qibla')
+    cd /Users/shafeekmacbookpro/Desktop/Qibla
+    /usr/bin/touch -c /Users/shafeekmacbookpro/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Qibla.app
+
+** BUILD SUCCEEDED **
+
